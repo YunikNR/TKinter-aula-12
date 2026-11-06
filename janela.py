@@ -42,6 +42,8 @@ botao_login = tk.Button(
     bg='#2B96C7', # Cor do background
     fg='white', # Cor do texto
     bd=0, # Borda
+    activebackground='#1E78A4', # Cor do background quando o botão é pressionado
+    activeforeground='white' # Cor do texto quando o botão é pressionado
     )
 botao_login.pack(ipadx=40, ipady=10, pady=8)
 
